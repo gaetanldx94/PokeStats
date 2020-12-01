@@ -1,6 +1,6 @@
 'use strict';
 
-var getJSON = require('get-json');
+const getJSON = require('get-json');
 const readline = require('readline-sync'); 
 const fs = require('fs');
 
@@ -61,7 +61,7 @@ function ShowPokeStat(Name, Height, Weight, Type, SpritesD, SpritesS, Appearance
     console.log("Default(pictures) : " + SpritesD);
     console.log("Shyni(pictures) : " + SpritesS);
     console.log("Appearance(pictures) : " + AppearanceD + "\n");
-	console.log("Level 1 : ");
+    console.log("Level 1 : ");
     console.log("Base Stats HP : " + StatsHp);
     console.log("Base Stats Attack : " + StatsAtt);
     console.log("Base Stats Defense : " + StatsDef);
